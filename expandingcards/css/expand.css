@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.component-container{
+    width: 90%;
+    margin: 5rem auto;
+    padding: 0 ;
+    /* background-color: brown; */
+    height: 36rem;
+    display: flex;
+    gap: 2%;
+}
+.sub-container{
+    width: 7%;
+    height: 100%;
+    background-color: aqua;
+    background-size: cover;
+    background-position: center;
+    border-radius: 3rem;
+    transition: ease .5s;
+}
+.active{
+   width: 64% !important;
+}    
+    
+
+.first-card{
+    background-image: url("../media/image1.jpg");
+}
+.second-card{
+    background-image: url("../media/image2.jpg");
+}
+.third-card{
+    background-image: url("../media/image3.jpg");
+}
+.fourth-card{
+    background-image: url("../media/image4.jpg");
+}
+.fifth-card{
+    background-image: url("../media/image5.jpg");
+}

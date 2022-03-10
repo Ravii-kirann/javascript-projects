@@ -1,0 +1,44 @@
+.game-arena{
+    width: 8rem;
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin: auto;
+    z-index: -1;
+    
+}
+.img-container{
+    display: flex;
+    column-gap: 15px;
+}
+.img{
+    width: 5rem;
+}
+.img1{
+    width: 5rem;
+}
+.img1:hover{
+    border: 2px solid green;
+    border-radius: 60px;
+}
+#score{
+    font-weight: 900;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+    width: 100px;
+    background-color: gold;
+    top: 30rem;
+    padding: 30px;
+    font-family: fantasy;
+    font-size: large;
+    letter-spacing: 1px;
+    opacity: 0;
+}
+.cover{
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+    display: none;
+}
